@@ -1,0 +1,17 @@
+@use "../../style/main.scss";
+
+.footer {
+    margin: 0;
+    margin-top:-5px;
+}
+
+footer p{
+    width:100%;
+    background-color:main.$primary-color;
+    color: main.$second-color;
+    margin:0;
+    padding: 15px 0;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+}
