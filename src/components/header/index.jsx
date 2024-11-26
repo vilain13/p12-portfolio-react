@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';  // pour gérer les liens vers les ancrages id sur page home à partir du header quelquesoit la page sur laquelle on se trouve //
 import { useState } from 'react'
 
 function Header() {
@@ -9,23 +10,24 @@ function Header() {
     };
 
     return (
-        <header className='header'>
-            <div className='header__logo'>
-                <Link className='header__logo__link' to="/">Guillergweb-dev</Link>
+        <header className="header">
+            <div className="header__logo">
+                <Link className="header__logo__link" to="/">Guillergweb-dev</Link>
             </div>
-            <nav className={`header__nav ${isMenuOpen ? 'header__nav--open' : ''}`}>
+            <nav className={`header__nav ${isMenuOpen ? "header__nav--open" : ''}`}>
                 <ul className="header__nav__list">
                     <li className="header__nav__list__item">
                         <Link className="header__nav__list__item__link" to="/">Accueil</Link>
                     </li>
                     <li className="header__nav__list__item">
-                        <Link className="header__nav__list__item__link" to="/apropos">Qui suis je ?</Link>
+                        <HashLink className="header__nav__list__item__link" to="/#introducing">Qui suis je ?</HashLink>
+
                     </li>
                     <li className="header__nav__list__item">
-                        <Link className="header__nav__list__item__link" to="#competences-title">Compétences</Link>
+                        <HashLink className="header__nav__list__item__link" to="/#competences-title">Compétences</HashLink>
                     </li>
                     <li className="header__nav__list__item">
-                        <Link className="header__nav__list__item__link" to="/projets">Projets</Link>
+                        <HashLink className="header__nav__list__item__link" to="/#portfolio">Projets</HashLink>
                     </li>
                     <li className="header__nav__list__item" id="nav-contact">
                         <a href="mailto:guillerg680@gmail.com">Contact</a>
