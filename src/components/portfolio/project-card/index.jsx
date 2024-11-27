@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import IconsContainer from '../icons-container';
 
-function ProjectCards({ id, img, title, summary }) {
+function ProjectCards({ id, img, title, summary, developmentIcons }) {
   const [isVisible, setIsVisible] = useState(false); // État pour savoir si l'élément est visible
 
   useEffect(() => {
@@ -38,7 +39,11 @@ function ProjectCards({ id, img, title, summary }) {
         {/* Ajout du lien autour de l'image */}
         <Link to={`/project/${id}`}>
           <img src={img} alt={title} />
-          <div className="overlay"></div>
+          <div className="overlay">
+          <IconsContainer developmentIcons={developmentIcons} />
+            
+        
+          </div>
         </Link>
       </div>
 
@@ -55,7 +60,7 @@ ProjectCards.propTypes = {
   img: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   summary: PropTypes.string.isRequired,
-  
+  developmentIcons: PropTypes.arrayOf(PropTypes.string),
 };
 
 export default ProjectCards;

@@ -27,7 +27,7 @@ function Header() {
                         <HashLink className="header__nav__list__item__link" to="/#competences-title">Compétences</HashLink>
                     </li>
                     <li className="header__nav__list__item">
-                        <HashLink className="header__nav__list__item__link" to="/#portfolio">Projets</HashLink>
+                        <HashLink className="header__nav__list__item__link" to="/#portfolio-title">Projets</HashLink>
                     </li>
                     <li className="header__nav__list__item" id="nav-contact">
                         <a href="mailto:guillerg680@gmail.com">Contact</a>

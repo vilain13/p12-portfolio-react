@@ -1,11 +1,18 @@
 @use "../../style/main.scss";
 
 
-#portfolio {
+.portfolio {
 
-    .portfolio-title {
-        background-color: #f3f3f3;
-        padding:3rem 0 2rem 1rem;
+    background-color: #f3f3f3;
+
+    .space {
+        height: 3rem;
+    }
+
+    #portfolio-title {
+        
+        padding:0 0 2rem 1rem;
+      
         h2 {
             margin-bottom:0;
             //padding-bottom:1rem;

@@ -5,7 +5,7 @@
         "img": "/assets/img-projects/img-sbluel.webp",
         "github": "https://github.com/vilain13/Portfolio-architecte-sophie-bluel",
         "summary": "resume",
-        "context": "Voici le contexte ddu projet Kasa.",
+        "context": "Voici le contexte du projet Kasa.",
         "competences": [
             "Competence 1",
             "Competence 2",
@@ -13,9 +13,10 @@
             "Competence 4",
             "Competence 5"
           ],
-          "developement": [
-            "/assets/util-icons/icon8-html.png",
-            "/assets/util-icons/icon8-css.png"
+          "developmentIcons": [
+            "/assets/util-icons/icons8-html.png",
+            "/assets/util-icons/icons8-css.png",
+            "/assets/util-icons/icons8-js.png"
           ]
       },
       {
@@ -31,10 +32,11 @@
           "Competence 3",
           "Competence 4"
           ],
-        "developement": [
-          "/assets/util-icons/icon8-html.png",
-          "/assets/util-icons/icon8-css.png",
-          "/assets/util-icons/icon8-sass.png"
+        "developmentIcons": [
+          "/assets/util-icons/icons8-html.png",
+          "/assets/util-icons/icons8-css.png",
+          "/assets/util-icons/icons8-sass.png",
+          "/assets/util-icons/icons8-js.png"
         ]
       },
     {
@@ -49,11 +51,11 @@
           "Competence 2",
           "Competence 3"
           ],
-        "developement": [
-          "/assets/util-icons/icon8-html.png",
-          "/assets/util-icons/icon8-css.png",
-          "/assets/util-icons/icon8-sass.png",
-          "/assets/util-icons/icon8-javascript.png"
+        "developmentIcons": [
+          "/assets/util-icons/icons8-html.png",
+          "/assets/util-icons/icons8-css.png",
+          "/assets/util-icons/icons8-sass.png",
+          "/assets/util-icons/icons8-javascript.png"
         ]
       },
       {
@@ -70,12 +72,35 @@
           "Competence 4",
           "Competence 5"
           ],
-        "developement": [
-          "/assets/util-icons/icon8-html.png",
-          "/assets/util-icons/icon8-css.png",
-          "/assets/util-icons/icon8-sass.png",
-          "/assets/util-icons/icon8-react.png",
-          "/assets/util-icons/icon8-redux.png"
+        "developmentIcons": [
+          "/assets/util-icons/icons8-html.png",
+          "/assets/util-icons/icons8-css.png",
+          "/assets/util-icons/icons8-sass.png",
+          "/assets/util-icons/icons8-react.png",
+          "/assets/util-icons/icons8-redux.png"
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Photographe Event",
+        "img": "/assets/img-projects/img-mota.webp",
+        "github":"https://github.com/vilain13/theme-photographe-event",
+        "summary": "Créer le site d'une photographe professionnelle en développant un thème totalement personnalisé avec HTML, CSS, PHP, JS et AJAX",
+        "context": "Voici le contexte du projet Sophie Bluel",
+        "competences": [
+          "Competence 1",
+          "Competence 2",
+          "Competence 3",
+          "Competence 4",
+          "Competence 5"
+          ],
+        "developmentIcons": [
+          "/assets/util-icons/icons8-html.png",
+          "/assets/util-icons/icons8-sass.png",
+          "/assets/util-icons/icons8-wordpress.png",
+          "/assets/util-icons/icons8-php.png",
+          "/assets/util-icons/icons8-js.png",
+          "/assets/util-icons/Ajax.webp"
         ]
       }
      
