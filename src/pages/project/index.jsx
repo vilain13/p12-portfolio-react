@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import projectsData from '../../data/projects-data.json';
+import imgGithub from '../../assets/icons8-github.png';
 
 const Project = () => {
     const { id } = useParams(); // Récupération de l'id depuis l'URL
@@ -40,7 +41,10 @@ const Project = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Voir sur GitHub
+                    
+                    <img  src={imgGithub} alt="Icone Github" />
+                
+                        Voir code GitHub
                     </a>
                 )}
 

@@ -20,17 +20,19 @@
     }
 
     .project-button {
-        display:inline-block;
+        display:flex;
+        width:170px;
+        justify-content:space-around;
         text-decoration:none;
         margin-top:15px;
-        padding:10px 20px;
+        padding:10px 0px;
         background-color: main.$second-background-color;
         color:main.$second-color;
         border-radius:5px;
-    }
 
-    p {
-        font-style:italic;
+        img{
+            width:25px;
+        }
     }
 
     .project-competences {
@@ -43,3 +45,4 @@
         }
     }
 }
+ 
