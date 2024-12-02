@@ -13,14 +13,19 @@ function CompetencesSection() {
   };
 
   return (
-    <section>
-      <div className='competences-typewriter'>
+    <section className="competences">
+      <div className="competences-typewriter">
         <h2 id="competences-title">MES COMPETENCES  :  </h2>
-        <TypewriterEffect />
+
+        <div className="competences-typewriter-text">
+          <span className="arrow">→&nbsp;</span>
+          <TypewriterEffect />
+          <span className="arrow">&nbsp;←</span>
+        </div>
+
       </div>
    
     <div className="competences-section">
-
       <div className="technique">
         <h3>FRONT-END</h3>
         <ProgressList data={filterDataByType("FRONT-END")} />
@@ -30,7 +35,7 @@ function CompetencesSection() {
         <ProgressList data={filterDataByType("OUTILS DE DEVELOPPEMENT")} />
       </div>  
 
-      <div className="img-competences">
+      <div className="competences-img">
         <img className="hero_img" src={imgCompetences} alt="hero Matrix" />
       </div>
 

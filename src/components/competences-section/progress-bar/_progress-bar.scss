@@ -1,3 +1,5 @@
+@use "../../../style/main.scss";
+
 .progress-bar {
     margin-bottom: 1rem;
   
@@ -14,7 +16,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      color: white;
+      color: main.$second-color;
       font-weight: bold;
       padding: 0 8px; // Espace intérieur de la barre
       transition: width 2s ease-in-out; 

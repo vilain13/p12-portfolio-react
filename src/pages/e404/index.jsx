@@ -11,6 +11,10 @@ function E404() {
       <div className='e404-img'>
           <img src={imgE404} alt="Page introuvable" />
       </div>
+      <div className="e404-title">
+        <h2>Page Introuvable !</h2>
+      </div>
+     
     
    
     </section>

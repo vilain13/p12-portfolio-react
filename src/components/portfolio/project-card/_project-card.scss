@@ -1,15 +1,12 @@
 @use "../../../style/main.scss";
 
 .card {
-  width: 32%;
-  height: 400px;
+  max-width: 32%;
   background-color: main.$third-background-color;
   border: main.$primary-color 1px solid;
   opacity: 0;
   transform: scale(0);
-
  
-  
   /* lancement animation*/
   &.active {
     opacity: 1;
@@ -19,13 +16,12 @@
   &__img {
     position: relative;
     width: 100%;
-    height: 239px;
     overflow: hidden;
-    border-bottom: main.$primary-color 1px solid;
+   
 
     img {
       width: 100%;
-      height: 100%;
+      height: auto;
       object-fit: fill;
       transition: opacity 0.3s ease; // Pour une transition fluide avec l'overlay
     }
@@ -40,17 +36,17 @@
       opacity: 0;
       /* affichage des icones developmentIcons */
       transition: opacity 0.3s ease;
-      display: flex; // Pour aligner les icônes
-      justify-content: center; // Centrer horizontalement
-      align-items: center; // Centrer verticalement
-      flex-wrap: wrap; // Permet le retour à la ligne si nécessaire
-      gap: 15px; // Espacement entre les icônes
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      flex-wrap: wrap; 
+      gap: 15px; 
     }
 
     .development-icon {
-      width: 50px; // Taille des icônes
+      width: 50px; 
       height: 50px;
-      object-fit: contain; // Conserve les proportions
+      object-fit: contain; 
       transition: transform 0.3s ease; // Animation au survol
   
       &:hover {
@@ -87,5 +83,40 @@
   100% {
     transform: scale(1);
     opacity: 1;
+  }
+}
+
+
+/* Media Queries pour Laptop 1024px */
+@media (max-width: 1024px) {
+  .card {
+    max-width:49%;
+  }
+}
+
+/* Media Queries pour Tablette 768px */
+@media (max-width: 768px) {
+  .card {
+    max-width:100%;
+  }
+}
+
+/* Media Queries pour Mobile 425px */
+@media (max-width: 425px) {
+  .card {
+    &__text p{
+      font-size: 0.7rem;
+    }
+
+    .overlay{
+      .development-icon{
+        width:35px;
+        height:35px;
+
+        &:hover {
+          transform: scale(1.5); // Agrandissement au survol
+        }
+      }
+    }
   }
 }

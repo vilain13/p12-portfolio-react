@@ -1,21 +1,32 @@
 @use "../../style/main.scss";
 
 #introducing {
-    margin:1rem;
-    margin-top:3rem;
-
     .introducing-img {
         display:flex;
         justify-content:center;
         
         img {
             width:8%;
+            margin-bottom:3rem
         }
     }
 
     .introducing-text{
-        padding-left: 3rem;
-        padding-right:3rem;;
+        margin-left: 4rem;
+        margin-right:3rem;;
+    }
+}
+
+
+
+/* Media Queries pour Tablette 768px max */
+@media (max-width: 768px) {
+    #introducing {
+
+        .introducing-text{
+            margin-left: 2rem;
+            margin-right:1rem;;
+        }
     }
 }
 

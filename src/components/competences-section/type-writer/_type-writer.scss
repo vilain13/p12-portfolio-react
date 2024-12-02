@@ -1,5 +1,21 @@
 .competence-item {
-    margin-left:1rem;
     color:#69727d;
-   
+    //margin-bottom: 3rem;
+    font-size:2rem;
+    text-align: center;
+}
+
+
+/* Media Queries pour Tablette 768px max */
+@media (max-width: 768px) {
+    .competence-item {
+            font-size:1.3rem;
+    }
+}
+
+/* Media Queries pour Mobile 425px max */
+@media (max-width: 425px) {
+    .competence-item {
+            font-size:1rem;
+    }
 }

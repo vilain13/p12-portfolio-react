@@ -4,8 +4,8 @@
     "title": "Ohmyfood",
     "img": "/assets/img-projects/img-ohmyfood.webp",
     "github":"https://github.com/vilain13/site-ohmyfood",
-    "summary": "Développer une interface mobile-first d'un site de création de menu en ligne, avec SASS et des animations CSS.",
-    "context": "En tant qu'intégrateur Web, la start-up Ohmyfood me missionne pour développer leur nouveau site Wen mobile-first qui répertorie les menus de restaurants gastronomiques.",
+    "summary": "Développer une interface mobile-first d'un site de création de menu en ligne avec SASS et des animations CSS.",
+    "context": "En tant qu'intégrateur Web, la start-up Ohmyfood me missionne pour développer leur nouveau site Web mobile-first qui répertorie les menus de restaurants gastronomiques.",
     "competences": [
       "Créer une interface Web Mobile-First, avec un responsive adapté pour les versions tablette et desktop.",
       "Intégrer des animations CSS pour améliorer l'aspect visuel du site, et l'expérience utilisateur. ",
@@ -31,7 +31,7 @@
             "Développer From Scratch.",
             "Communiquer avec une API.",
             "Gérer des événements utilisateurs et manipuler des éléments du DOM dynamiquement avec JavaScript.",
-            "Mettre à jour des éléments dynamiques du DOM sans refaire appel à l'API.",
+            "Mettre à jour des éléments du DOM sans refaire appel à l'API.",
             "Tester les fonctionnalités du site."
           ],
           "developmentIcons": [
@@ -48,7 +48,7 @@
         "img": "/assets/img-projects/img-kasa.webp",
         "github":"https://github.com/vilain13/site-kasa",
         "summary": "Créer une application web de location immobilière avec React et React Router.",
-        "context": "En tant que développeur front-end freelance, ma mission était la refonte totale du site pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. en y intégrant de nouvelles maquettes Figma.",
+        "context": "En tant que développeur front-end freelance, ma mission était la refonte totale du site pour passer à une stack complète en JavaScript avec NodeJS côté back-end et React côté front-end.",
         "competences": [
           "Utiliser Create React App et Nodejs pour initiliser l'environnement de codage du projet.",
           "Travailler avec la bibliothèque React Javascript pour la création d'une application one-page en manipulant des composants.",
@@ -91,7 +91,7 @@
         "img": "/assets/img-projects/img-mota.webp",
         "github":"https://github.com/vilain13/theme-photographe-event",
         "summary": "Créer le site d'une photographe professionnelle en développant un thème totalement personnalisé sous Wordpress.",
-        "context": "Ma mission pour ce projet, en tant que développeur WordPress Freelance, était de créer le site Web de la Photographe professionnelle Nathalie Mota, en codant sans utiliser de modèle de thème.",
+        "context": "Ma mission pour ce projet, en tant que développeur WordPress Freelance, était de créer le site Web de la Photographe professionnelle Nathalie Mota, en codant sans utiliser de modèle de thème sous Wordpress.",
         "competences": [
           "Mettre en place des structures de données et des champs configurables avec les plugins CPTUI et ACF.",
           "Créer un thème totalement personnalisé avec PHP, CSS et SASS sans utiliser de modèle de thème de base.",

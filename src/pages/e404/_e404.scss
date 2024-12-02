@@ -1,27 +1,66 @@
 @use "../../style/main.scss";
 
 .e404 {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; 
+  align-items: center; 
+  overflow: hidden; 
 
   .e404-img {
-    width: 100%;
+    width: 100%; 
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
 
     img {
-      width: 100%;
-      height: auto;
+      width: 100%; 
+      height: 100%; 
+      object-fit: cover; 
     }
   }
 
-  .e404-text {
-    color: main.$second-background-color;
-
-    h2 {
-      font-size: 2rem;
+  .e404-title {
+    display:flex;
+    width:100%;
+    color:main.$second-color;
+    background-color: main.$second-background-color;
+    justify-content: center;
+   
+    h2{
+      margin:0;
+      font-size: 3rem;
+     
     }
   }
 }
+
+/* Media Queries pour Tablette 768px max */
+@media (max-width: 768px) {
+  .e404{
+    .e404-title {
+      h2 {
+        font-size:2rem;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   

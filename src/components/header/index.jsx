@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';  // pour gérer les liens vers les ancrages id sur page home à partir du header quelquesoit la page sur laquelle on se trouve //
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,6 +8,24 @@ function Header() {
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
+
+    // Fonction pour gérer la taille de l'écran  puis passage du menu en colonne au menu en ligne 
+    const handleResize = () => {
+    if (window.innerWidth > 1024) {
+        // Fermer le menu quand l'écran est plus large que 1024px
+        setIsMenuOpen(false);
+    }
+};
+
+    // Ajouter un écouteur d'événements pour la redimension
+    useEffect(() => {
+        window.addEventListener('resize', handleResize);
+        
+        // Nettoyer l'écouteur quand le composant est démonté
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     return (
         <header className="header">

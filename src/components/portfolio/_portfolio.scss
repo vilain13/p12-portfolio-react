@@ -2,25 +2,21 @@
 
 
 .portfolio {
-
     background-color: #f3f3f3;
 
     .space {
-        height: 3rem;
+        height: 2rem;
     }
 
     #portfolio-title {
-        
-        padding:0 0 2rem 1rem;
+            padding-bottom: 2rem;
       
         h2 {
-            margin-bottom:0;
-            //padding-bottom:1rem;
-            padding: 0 3rem 0 3rem;
+            margin-bottom:1rem;
         }
 
         p{
-            padding-left: 3rem;
+            padding-left: 4rem;
         }
 
         .portfolio-img {
@@ -47,3 +43,18 @@
     }
 }
 
+
+/* Media Queries pour Tablette 768px max*/
+@media (max-width: 768px) {
+    .portfolio {
+        #portfolio-title {
+            p{
+                padding-left: 2rem;
+            }
+        } 
+        .portfolio-list{
+            flex-direction: column;
+            gap:25px;
+          }
+    }
+}
