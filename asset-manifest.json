@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/p12-portfolio-react/static/css/main.3368b439.css",
-    "main.js": "/p12-portfolio-react/static/js/main.59bf2b43.js",
-    "static/media/matrix-1735640_1280.webp": "/p12-portfolio-react/static/media/matrix-1735640_1280.49d5450b787bc26b0327.webp",
-    "static/media/cyber-4062449_1280.webp": "/p12-portfolio-react/static/media/cyber-4062449_1280.996c62c1e9b7f0cf62d5.webp",
-    "static/media/voyage.png": "/p12-portfolio-react/static/media/voyage.c4c344918fd6e3a64c8c.png",
-    "static/media/erreur404_1.webp": "/p12-portfolio-react/static/media/erreur404_1.c6940bc7dc8571267eca.webp",
-    "static/media/punaise.png": "/p12-portfolio-react/static/media/punaise.4098bad67e1c71a1074b.png",
-    "index.html": "/p12-portfolio-react/index.html",
-    "main.3368b439.css.map": "/p12-portfolio-react/static/css/main.3368b439.css.map",
-    "main.59bf2b43.js.map": "/p12-portfolio-react/static/js/main.59bf2b43.js.map"
+    "main.css": "/static/css/main.3368b439.css",
+    "main.js": "/static/js/main.97c80d75.js",
+    "static/media/matrix-1735640_1280.webp": "/static/media/matrix-1735640_1280.49d5450b787bc26b0327.webp",
+    "static/media/cyber-4062449_1280.webp": "/static/media/cyber-4062449_1280.996c62c1e9b7f0cf62d5.webp",
+    "static/media/voyage.png": "/static/media/voyage.c4c344918fd6e3a64c8c.png",
+    "static/media/erreur404_1.webp": "/static/media/erreur404_1.c6940bc7dc8571267eca.webp",
+    "static/media/punaise.png": "/static/media/punaise.4098bad67e1c71a1074b.png",
+    "index.html": "/index.html",
+    "main.3368b439.css.map": "/static/css/main.3368b439.css.map",
+    "main.97c80d75.js.map": "/static/js/main.97c80d75.js.map"
   },
   "entrypoints": [
     "static/css/main.3368b439.css",
-    "static/js/main.59bf2b43.js"
+    "static/js/main.97c80d75.js"
   ]
 }
