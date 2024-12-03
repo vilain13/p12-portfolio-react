@@ -1,17 +1,15 @@
 import React from 'react';
-//import { Provider } from 'react-redux';
-//import store  from '../store/store';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from '../pages/home';
 import E404 from '../pages/e404';
 import Project from '../pages/project';
-
 import Header from '../components/header';
 import Footer from '../components/footer';
 
 function Routage() {
+  const basename = process.env.NODE_ENV === "production" ? "/p12-portfolio-react" : "/"; // ajout pour gerer l'url lancé en production ou en developpement
   return (
-      <Router>
+      <Router basename={basename}>
         <Header />
           <Routes>
               <Route path="/" element={<Home />} />
