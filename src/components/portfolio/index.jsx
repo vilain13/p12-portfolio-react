@@ -30,7 +30,8 @@ function PortfolioProjects() {
           <ProjectCard 
           key={index} 
           id={card.id}
-          img={card.img} 
+          // Ajout de PUBLIC_URL pour avoir le chemin correct de l'image projet suite deploiement gitpages
+          img={`${process.env.PUBLIC_URL}${card.img}`} 
           title={card.title} 
           summary={card.summary} 
           developmentIcons={card.developmentIcons}

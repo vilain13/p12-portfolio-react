@@ -9,7 +9,7 @@ function Header() {
         setIsMenuOpen(!isMenuOpen);
     };
 
-    // Fonction pour gérer la taille de l'écran  puis passage du menu en colonne au menu en ligne 
+    // Fonction pour gérer la taille de l'écran  puis passage du menu navigation en colonne au menu navigation  en ligne 
     const handleResize = () => {
     if (window.innerWidth > 1024) {
         // Fermer le menu quand l'écran est plus large que 1024px

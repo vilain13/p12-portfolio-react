@@ -15,7 +15,7 @@
         align-items: center;
 
         &__link {
-            color: white;
+            color: main.$second-color;
             font-size: 1.5rem;
             font-weight: 600;
             text-decoration: none;
@@ -38,7 +38,7 @@
                 font-size:1.5rem;
                 &:hover {
                     text-decoration:underline;
-                    color:white;
+                    color:main.$second-color;
                 }
             }
 
@@ -47,7 +47,7 @@
 
                 &__link {
                     text-decoration: none;
-                    color: white;
+                    color: main.$second-color;
                     &:hover{
                         color:black;
                     }

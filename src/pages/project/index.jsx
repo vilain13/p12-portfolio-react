@@ -7,7 +7,10 @@ const Project = () => {
     const { id } = useParams(); // Récupération de l'id depuis l'URL
     const navigate = useNavigate(); // Hook pour naviguer vers une autre page
     const project = projectsData.find((project) => project.id === id); // Recherche du projet correspondant via l'id
-
+    
+    // Accéder à l'image avec PUBLIC_URL (suite integration deploiement sur gitpages )
+    const imageUrl = `${process.env.PUBLIC_URL}${project.img}`;
+    
     useEffect(() => {
         if (!project) {
             // Si le projet n'existe pas, redirection vers la page 404
@@ -28,7 +31,7 @@ const Project = () => {
             <section className="project">
                 <div className="project-img">
                     {project.img && (
-                        <img src={project.img} alt={`Illustration de ${project.title}`} />
+                       <img src={imageUrl} alt={`Ecran accueil de ${project.title}`} />
                     )}
                 </div>
 

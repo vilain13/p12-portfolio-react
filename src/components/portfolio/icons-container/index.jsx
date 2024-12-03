@@ -10,7 +10,8 @@ const IconsContainer = ({ developmentIcons }) => {
     <div className="development-icons">
       {developmentIcons.map((devImg, index) => (
         <img
-          src={devImg}
+          // Ajout de PUBLIC_URL pour avoir le chemin correct de l'icône suite deploiement gitpages
+          src={`${process.env.PUBLIC_URL}${devImg}`}
           alt={`Development ${index}`}
           key={index}
           className="development-icon"
