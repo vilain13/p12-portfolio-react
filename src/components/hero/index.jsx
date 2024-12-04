@@ -25,7 +25,7 @@ function Hero() {
     <section className="hero">
       <img className="hero-img" src={imgHero} alt="hero Matrix" />
       <div className="hero-overlay">
-        <h1>GUILLERMIN GILL<br />Développeur Intégrateur Web</h1>
+        <h1>GUILLERMIN<br />Développeur Intégrateur Web</h1>
         <button
           className="hero-button"
           onClick={() => window.location.href='mailto:guillerg680@gmail.com'}
