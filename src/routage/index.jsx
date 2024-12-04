@@ -7,9 +7,9 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 
 function Routage() {
-  const basename = process.env.NODE_ENV === "production" ? "/p12-portfolio-react" : "/"; // ajout pour gerer l'url lancé en production ou en developpement
+ 
   return (
-      <Router basename={basename}>
+      <Router>
         <Header />
           <Routes>
               <Route path="/" element={<Home />} />
