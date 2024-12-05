@@ -9,11 +9,11 @@ const Project = () => {
     const project = projectsData.find((project) => project.id === id); // Recherche du projet correspondant via l'id
     
     // Accéder à l'image avec PUBLIC_URL (suite integration deploiement sur gitpages )
-    const imageUrl = `${process.env.PUBLIC_URL}${project.img}`;
+    const imageUrl = project ? `${process.env.PUBLIC_URL}${project.img}` : '';
     
     useEffect(() => {
         if (!project) {
-            // Si le projet n'existe pas, redirection vers la page 404
+            // Si l'id projet n'existe pas dans le fichier json, redirection vers la page 404
             navigate('/404', { replace: true }); // `replace: true` évite d'empiler la redirection dans l'historique
         } else {
             // Défilement vers le haut lorsque le composant est monté

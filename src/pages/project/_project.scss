@@ -18,6 +18,7 @@
     }
 
     h3 {
+        font-size: 1.4rem;
         margin-top:3rem;
     }
 
@@ -79,11 +80,19 @@
 @media (max-width: 425px) {
     .project {
         .project-img {
-            width:75%;
+            width:75%;  
         }
 
+        h3 {
+            font-size:1rem;
+        }
+        
         .project-competences {
             font-size:0.7rem;
-        }  
-    }
+        } 
+        }
+
+       
+
+       
 }
